@@ -23,7 +23,6 @@ func getTens() []int {
 	for i := 10; i <= 100; i += 10 {
 		tens = append(tens, i)
 	}
-	return tens
 }
 
 func main() {
